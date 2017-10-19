@@ -1,0 +1,55 @@
+**** Welcome to Hobbit Overload and Lists! By Napon Krassner (Jett) ****
+
+==== Testing insert siblings ====
+
+Andy inserted to end of Gaffer's siblings list: 1
+Hamson inserted to end of Samwise's siblings list: 1
+Halfred inserted to end of Samwise's siblings list: 1
+May inserted to end of Samwise's siblings list: 1
+Marigold inserted to end of Samwise's siblings list: 1
+Daisy inserted to Samwise's siblings list between May and Marigold: 1
+
+
+==== Testing search siblings ====
+
+Search for May in Samwise's siblings list: 1
+Search for Andy in Samwise's siblings list: 0
+
+
+==== Testing copy Hobbit with siblings ====
+
+sam object has been copied to samCopy object: 1
+sam object has also been copied to samCopy2 object via multiple assignment: 1
+
+
+==== Testing printRelation ====
+
+===== Relationship between Samwise and Gaffer: =====
+Gaffer Gamgee is a parent of Samwise Gamgee
+
+===== Relationship between Samwise and Elanor: =====
+Samwise Gamgee is a parent of Elanor Gamgee
+
+===== Relationship between Gaffer and Elanor: =====
+Elanor Gamgee is not the parent of Gaffer Gamgee and vice versa
+
+
+
+===== Testing printFamilyStick on Gaffer: =====
+
+The family stick of Gaffer Gamgee:
+                      Gaffer Gamgee (95), Andy Roper (98)
+                           |
+                     Samwise Gamgee (41), Hamson (56), Halfred (52), May (45), D
+aisy (49), Marigold (38)
+                           |
+                      Elanor Gamgee (0)
+
+
+
+==== Testing delete siblings ====
+
+Sam's siblings after Halfred deleted:
+
+Samwise Gamgee (41), Hamson (56), May (45), Daisy (49), Marigold (38)
+Press any key to continue . . .
